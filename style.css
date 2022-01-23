@@ -1,0 +1,150 @@
+/* *{
+    margin: 0;
+    width: 0px;
+    height: 0px;
+} */
+body {
+    background-color: #aaa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    height: 93vh;
+    width: 300px;
+    background-color: rgb(46, 15, 223);
+    position: fixed;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.add>div {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(20, 142, 218);
+    margin-bottom: 20px;
+    font-size: large;
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.add input[type=text] {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    transition: .3s;
+}
+
+.add input[type=text]:focus {
+    border-color: rgb(245, 48, 48);
+    box-shadow: 0 0 8px 0 rgb(246, 61, 85);
+}
+
+.add .edit_book {
+    visibility: hidden;
+}
+
+.add_book,
+.edit_book {
+    background-color: rgb(230, 21, 56);
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 25px;
+    width: 50px;
+    font: bold15px arial, sans-serif;
+    text-shadow: none;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.edit_book {
+    background-color: rgb(35, 6, 197);
+}
+
+.home {
+    height: auto;
+    width: 800px;
+    top: 0px;
+    /* background-color: #fafafa; */
+    /* rgba(97, 105, 122, 0.5) */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 350px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.home .book-info {
+    background-color: rgb(82, 207, 235);
+    text-align: center;
+    height: 35px;
+    font-size: large;
+    color: #ffffff;
+    position: sticky;
+    width: 780px;
+    margin: 10px 0 10px 10px;
+    border-radius: 5px;
+}
+
+.home .items {
+    text-align: center;
+    width: 23%;
+    margin: 1%;
+    margin-left: 1%;
+    box-shadow: rgba(56, 193, 231, 0.2) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 15px;
+}
+
+.items>img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.items .name,
+.price,
+.category {
+    text-align: start;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.button .editBtn,
+.deletBtn {
+    border-radius: 5px;
+    background-color: rgb(86, 164, 233);
+    color: white;
+    border-style: outset;
+    border-color: #7dd1f5;
+    text-shadow: none;
+    height: 30px;
+}
+
+.deletBtn {
+    margin-left: 4px;
+    background-color: rgba(239, 54, 54);
+}
+
+.edit_book {
+    margin-left: -55px;
+    text-align: center;
+    width: 60px;
+}
+
+.items>img {
+    height: 90px;
+}

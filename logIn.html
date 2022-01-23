@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Cookies</title>
+
+    <link rel="stylesheet" href="logIn.css" type="text/CSS">
+</head>
+
+<body>
+
+    <div class="container">
+     
+        <div class="log_in">
+            <div>Give login info:</div>
+            <div>Email:gic@gmail.com</div>
+            <div>Password:Gic123</div>
+            <div><img src="1.PNG" alt="" /></div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Input email" onclick="if(this.placeholder == 'Input email') {this.placeholder = ''}" onBlur="if(this.placeholder == '') {this.placeholder = 'Input email'}" />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Input password" onclick="if(this.placeholder == 'Input password') {this.placeholder = ''}" onBlur="if(this.placeholder == '') {this.placeholder = 'Input password'}" />
+            <button type="submit" id="btn_login">Log In</button>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="home">
+            <h3>Welcome to Home Page</h3>
+            <div>You will automatically logged out</div>
+            <div>Keep refreshing your paage</div>
+            <button type="submit" id="btn_logout">Log Out</button>
+        </div>
+    </div>
+    <script type="text/javascript"></script>
+    <script src="logIn.js"></script>
+</body>
+
+</html>

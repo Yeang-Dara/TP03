@@ -1,0 +1,80 @@
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+
+.log_in {
+    background-color: rgba(170, 170, 170, 0.8);
+    width: 20.56rem;
+    padding: 1rem;
+    border-radius: 2%;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 6px;
+}
+
+.log_in>div {
+    text-align: center;
+}
+
+.log_in>label {
+    color: rgb(255, 255, 255);
+}
+
+.log_in>div>img {
+    width: 13rem;
+    margin-bottom: 0.780rem;
+}
+
+.log_in>input {
+    background-color: #fafafa;
+    width: 20.56rem;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.log_in>input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.container2 {
+    margin: -45rem 0 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 93vw;
+    height: 93vh;
+}
+
+#btn_login,
+#btn_logout {
+    background-color: rgb(61, 133, 198);
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 2rem;
+    width: 4rem;
+    font: sans-serif;
+    text-shadow: none;
+    height: 1.5rem;
+    margin-top: 0.645rem;
+    border-radius: 0.165rem;
+    margin: 0.50rem 0 0.670rem 0;
+}
+
+#btn_logout {
+    background-color: rgba(239, 54, 54);
+}
